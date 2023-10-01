@@ -1,3 +1,24 @@
+.landing{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 100vh;
+    padding: 20px; 
+    grid-column: span 2;
+  }
+  .landing img{
+    border-radius: 50%;
+    height: 60vh;
+  }
+  .Career{
+    height: 100vh;
+  }
+  .Projects{
+    height: 100vh;
+    align-items: center; 
+    height: 100vh;
+    padding: 20px; 
+  }
 h1{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
@@ -210,6 +231,19 @@ img {
 .dark-mode .fs-4 p {
     color: #0602f0; 
 }
+.slide-in {
+    transform: translateY(0) !important; 
+    opacity: 1 !important; 
+    transition: all 3s !important;
+}
+
+
+/* Initial hidden state */
+  .Career, .Projects {
+    transform: translateY(100px); 
+    opacity: 0;
+}
+
 
 
 
